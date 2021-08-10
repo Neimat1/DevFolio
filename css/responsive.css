@@ -1,0 +1,45 @@
+
+@media screen and  (max-width:768px) {
+    h1{
+        font-size: 48px;
+    }
+    nav{
+        flex-direction: column;
+    }
+    
+    .nav-contant{
+        background-color: #4e4e4e6c;
+        position: fixed;
+        margin-top:30px ;
+        right: 100%;
+        flex-direction: column;
+        align-items: flex-start;
+        transition: all 1s;
+        
+    
+    }
+    nav:hover .nav-contant{
+       visibility: visible;
+       right: 5%;
+    }
+    h1{
+        text-align: center;
+        font-size: 48px;
+    }
+    .layer-content p{
+        font-size: 24px;
+    }
+    
+    
+}
+@media screen and (min-width: 768px ) and (max-width:992px) {
+    h1{
+        font-size: 48px;
+    }
+}
+@media screen and (min-width: 992px ) and (max-width:1200px) {
+    
+}
+@media screen and (min-width: 1200px ) and (max-width:1400px) {
+    
+} 
