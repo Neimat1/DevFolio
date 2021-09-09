@@ -19,9 +19,10 @@ nav{
     width: 100%;
     padding:  20px 15px 10px ;
     display: flex;
-    justify-content:space-around;
+    justify-content:space-between;
 }
 .logo {
+    margin-left: 50px;
     display: flex;
     justify-content:center;
     align-items: center;
@@ -33,16 +34,19 @@ nav{
 } 
 
 nav ul.internal-ul{
+    padding: 0;
+    width: 50%;
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
     align-items: center;
     align-content: center;
    
 }
 .main-li {
     position: relative;
-    width: 110px;
-    margin: 1px;
+    width:13% ;
+    padding: 5px;
+    margin: 5px;
 }
 .main-li-a::after{
     content: "";
@@ -72,6 +76,7 @@ nav ul.internal-ul{
     margin-bottom: 5px;
 }
 li.drop-down{
+    flex-grow: 2;
     position: relative;
 }
 li.drop-down:hover  ul.drop-down-1{
